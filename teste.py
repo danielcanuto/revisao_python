@@ -1,0 +1,24 @@
+def soma(x, y):
+    return x + y
+
+
+def mechama():
+    print("obg")
+
+
+def bomdia():
+    print("bom dia")
+    soma(5, 5)
+    return mechama()
+
+
+bomdia()
+
+
+fora = 5
+while fora > 0:
+    dentro = 0
+    while dentro < fora:
+        print("oi")
+        dentro = dentro + 1
+    fora = fora - 1
