@@ -2,7 +2,8 @@ import re
 
 
 def le_assinatura():
-    '''A funcao le os valores dos tracos linguisticos do modelo e devolve uma assinatura a ser comparada com os textos fornecidos'''
+    '''A funcao le os valores dos tracos linguisticos do 
+    modelo e devolve uma assinatura a ser comparada com os textos fornecidos'''
     print("Bem-vindo ao detector automático de COH-PIAH.")
     print("Informe a assinatura típica de um aluno infectado:")
 
@@ -17,7 +18,8 @@ def le_assinatura():
 
 
 def le_textos():
-    '''A funcao le todos os textos a serem comparados e devolve uma lista contendo cada texto como um elemento'''
+    '''A funcao le todos os textos a serem comparados e devolve uma lista 
+    contendo cada texto como um elemento'''
     i = 1
     textos = []
     texto = input("Digite o texto " + str(i) + " (aperte enter para sair):")
